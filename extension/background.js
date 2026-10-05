@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener(()=>chrome.contextMenus.create({id:"phishguard-scan","title":"Analyze link with PhishGuard","contexts":["link"]}));chrome.contextMenus.onClicked.addListener((info)=>{if(info.menuItemId==="phishguard-scan"&&info.linkUrl)chrome.tabs.create({url:"http://127.0.0.1:8000/?scan_url="+encodeURIComponent(info.linkUrl)})});

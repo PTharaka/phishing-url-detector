@@ -1,0 +1,5 @@
+url,label
+https://example.com,0
+https://www.python.org/downloads/,0
+http://192.0.2.10/login,1
+https://secure-login-verify-account.example.zip/reset,1

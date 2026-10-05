@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"PhishGuard URL Detector","version":"5.0.0","description":"Analyze the current URL with a local PhishGuard V5 API.","permissions":["activeTab","contextMenus"],"host_permissions":["http://127.0.0.1:8000/*","http://localhost:8000/*"],"action":{"default_popup":"popup.html"},"background":{"service_worker":"background.js"}}
